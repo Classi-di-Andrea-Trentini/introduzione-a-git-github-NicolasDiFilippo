@@ -19,3 +19,21 @@ L'architettura two-tier è l'architettura client-server originale, costituita da
 Architettura n-tier
 L'architettura n-tier - chiamata anche architettura multi-tier -  si riferisce a  qualsiasi  architettura applicativa con più di un tier. Tuttavia, le applicazioni con più di tre livelli sono rare, perché ulteriori livelli offrono pochi vantaggi e possono rendere l'applicazione più lenta, più difficile da gestire e più costosa da eseguire. Di conseguenza, i termini architettura n-tier e architettura multi-tier sono generalmente sinonimi che indicano l'architettura three-tier.
 
+###                 APPUNTI
+
+## creare un container
+'''docker run -it --name nome_container ubuntu:latest'''
+## entrare nel container
+'''docker exec -it nome_container bash'''
+## uscire dal container
+'''exit'''
+## vedere i container attivi
+'''docker ps'''
+## vedere tutti i container
+'''docker ps -a'''
+## vedere le immagini
+'''docker images'''
+## eliminare un container
+'''docker rm nome_container'''
+
+
